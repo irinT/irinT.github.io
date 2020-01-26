@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Booking</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- custom style sheet -->
+    <link rel="stylesheet" href="styleA.css">
+
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <h1>ARM's Dental Clinic</h1>
+<!--NavBar -->
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+
+      <a class="navbar-brand" href="#"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+    <div class="collapse navbar-collapse"  id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">
+            <!-- add icon -->
+            <i class="fas fa-home"></i>
+            Home</a>
+          <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="BookingA.html">Booking</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="section-title">Enter patient's detail</h2>
+            </div>
+        </div>
+
+        <!-- Form / button /link-->
+        <div class="row">
+            <div class="col-sm-12">
+                <form action="https://google.com" method="GET">
+                    <div class="form-group">
+                        <label> Full name</label>
+                        <!-- input box / no space between name attribute-->
+                        <input type="text" name="full_name" class="form-control" id="fullnameinput" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label> E-mail</label>
+
+                        <input type="email" name="email" class="form-control" id="emailinput" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label> How old are you?</label>
+                        <!-- radio button -->
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="ageradio" id="ageuner18" value="option1"
+                                checked>
+                            <label class="form-check-label" for="ageunder18">
+                                Under 18 years old
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="ageradio" id="over18" value="option2">
+                            <label class="form-check-label" for="over18">
+                                18 years old or over
+                            </label>
+                        </div>
+                        
+                    </div>
+
+                        <div class="form-group">
+                            <label> Is this your first visit?</label>
+                            <!-- radio button -->
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="firstvisit" id="newpatient"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="newpatient">
+                                    I am a new patient
+                                </label>
+
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="firstvisit" id="oldpatient"
+                                    value="option2">
+                                <label class="form-check-label" for="oldpatient">
+                                    No. I have had an exam here before.
+                                </label>
+                            </div>
+<br>
+                                <div class="container submit_link">
+                                    <button class="btn btn-info"> Submit </button>
+                                    </div>
+
+
+</body>
+
+</html>
